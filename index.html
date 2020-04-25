@@ -1,0 +1,51 @@
+<!doctype html>
+<!-- Created with http://boockup.marco.land -->
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>The Gleaners and I</title>
+  <!-- <meta name="author" content="boockup.marco.land"> -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0 minimum-scale=0.5"  >
+  <link rel="stylesheet" href="css/boockup.css">
+  <link href="https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap" rel="stylesheet">
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+
+</head>
+<body>
+<div id="tail">
+  <p>The Gleaners and I, a film by Agnès Varda, 176pages, 9.91 × 13.72 cm, April, 2020. This book is a film script designed by Lihua Yu. © 2020, the director, writer, designer. Onclick the book to download PDF.</p>
+  </div>​
+
+
+
+   <!-- <div class="info">The Gleaners and I, film scripts, 176pages, 9.91 × 13.72 cm, April, 2020. Onclick the book to download full PDF.</div> -->
+
+
+  <div alt="Avatar" class="container" >
+     <div class="boockup">
+       <div class="book"><a href="finalbook.pdf"></div>
+      <div class="book-container">
+        <div class="book-front"></div>
+        <div class="book-side-left"></div>
+        <div class="book-side-right"></div>
+        <div class="book-top"></div>
+        <div class="book-bottom"></div>
+        <div class="book-back"></div>
+      </div>
+
+      </a>
+    </div>
+  </div>
+
+  <script type="text/javascript">
+
+  $(document).bind('mousemove', function(e){
+    $('#tail').css({
+        left: e.pageX + 5,
+        top: e.pageY - 20
+    });
+  });
+  </script>
+
+</body>
+</html>

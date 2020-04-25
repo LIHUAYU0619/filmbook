@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+  <html>
+  <head>
+
+  <link href="style.css" rel="stylesheet" type="text/css" />
+
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+
+  </head>
+
+  <body>
+
+
+
+  <div id="tail">
+      <p>hello</p>
+      <p>i love u</p>
+  </div>​
+
+  <script type="text/javascript">
+
+  $(document).bind('mousemove', function(e){
+    $('#tail').css({
+        left: e.pageX + 5,
+        top: e.pageY - 20
+    });
+});
+  </script>
+
+
+  </body>
+  </html>
